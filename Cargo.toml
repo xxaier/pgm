@@ -1,10 +1,13 @@
 [package]
 name = "pgm"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+license = "BSL-1.0"
+homepage = "https://github.com/xxaier/pgm"
+repository = "https://github.com/xxaier/pgm"
+description = "easy use prepared sql for postgresql"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 lazy_static = "1.4.0"
 paste = "1.0.14"
@@ -12,4 +15,9 @@ pgw = "0.1.9"
 
 [dev-dependencies]
 anyhow = "1.0.75"
-tokio = { version = "1.32.0", features = ["macros", "rt", "rt-multi-thread", "time"] }
+tokio = { version = "1.32.0", features = [
+  "macros",
+  "rt",
+  "rt-multi-thread",
+  "time"
+] }
