@@ -6,7 +6,7 @@ pub use pgw::{Error, IntoStatement, Pg, Row, Sql, ToSql, ToStatement};
 macro_rules! q {
   ($db:ident, $name:ident) => {
     $crate::lazy_static! {
-      static ref $db: $crate::Pg = $crate::Pg::new_with_env(format!("{}_URI",stringify!($db)));
+      pub static ref $db: $crate::Pg = $crate::Pg::new_with_env(format!("{}_URI",stringify!($db)));
     }
     $crate::paste! {
       q!($db, $name, query, Vec<$crate::Row>);
