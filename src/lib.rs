@@ -1,6 +1,6 @@
 pub use lazy_static::lazy_static;
 pub use paste::paste;
-pub use pgw::{Error, IntoStatement, Pg, Row, ToSql, ToStatement};
+pub use pgw::{Error, IntoStatement, Pg, Row, Sql, ToSql, ToStatement};
 
 #[macro_export]
 macro_rules! q {
