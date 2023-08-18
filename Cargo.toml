@@ -1,6 +1,6 @@
 [package]
 name = "pgm"
-version = "0.0.3"
+version = "0.0.4"
 edition = "2021"
 license = "BSL-1.0"
 homepage = "https://github.com/xxaier/pgm"
@@ -11,7 +11,7 @@ description = "easy use prepared sql for postgresql"
 [dependencies]
 lazy_static = "1.4.0"
 paste = "1.0.14"
-pgw = "0.1.9"
+pgw = { version = "0.2.0" }
 
 [dev-dependencies]
 anyhow = "1.0.75"
