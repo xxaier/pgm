@@ -12,6 +12,7 @@ macro_rules! q {
       q!($db, $name, query, Vec<$crate::Row>);
       q!($db, [<$name 1>], query_one, $crate::Row);
       q!($db, [<$name 01>], query_opt, Option<$crate::Row>);
+      q!($db, [<$name E>], execute, u64);
     }
   };
   ($db:ident,$name:ident,$func:ident,$rt:ty) => {

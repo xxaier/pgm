@@ -1,6 +1,6 @@
 [package]
 name = "pgm"
-version = "0.0.4"
+version = "0.0.5"
 edition = "2021"
 license = "BSL-1.0"
 homepage = "https://github.com/xxaier/pgm"
