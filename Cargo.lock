@@ -401,7 +401,7 @@ checksum = "9b2a4787296e9989611394c33f193f676704af1686e70b8f8033ab5ba9a35a94"
 
 [[package]]
 name = "pgm"
-version = "0.0.7"
+version = "0.0.8"
 dependencies = [
  "anyhow",
  "lazy_static",
@@ -412,9 +412,9 @@ dependencies = [
 
 [[package]]
 name = "pgw"
-version = "0.2.4"
+version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6578117be2a283e6b00b0dbae522cfe0442d337c26709276522c44fa3f3f2eb6"
+checksum = "af4f42460b509b2396d9177ea0df950ddd31d48175ec945de4742932ca95cc17"
 dependencies = [
  "futures",
  "tokio",
@@ -706,9 +706,9 @@ dependencies = [
 
 [[package]]
 name = "typenum"
-version = "1.16.0"
+version = "1.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "497961ef93d974e23eb6f433eb5fe1b7930b659f06d12dec6fc44a8f554c0bba"
+checksum = "42ff0bf0c66b8238c6f3b578df37d0b7848e55df8577b3f74f92a69acceeb825"
 
 [[package]]
 name = "unicode-bidi"
